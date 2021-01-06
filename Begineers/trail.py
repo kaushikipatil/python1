@@ -1,3 +1,8 @@
-print(2**2**3)
-print(2**(2**3))
-print((2**2)**3)
+import sys
+
+
+
+
+print("enter the number")
+ad=input()
+sys.maxsize(ad)
