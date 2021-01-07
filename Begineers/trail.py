@@ -1,8 +1,4 @@
-import sys
 
+a=5
 
-
-
-print("enter the number")
-ad=input()
-sys.maxsize(ad)
+print(type(a))

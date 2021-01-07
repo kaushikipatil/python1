@@ -4,9 +4,9 @@ sum of X consecutive integers starting at 1. That is, if X = 5, you will find th
 of 1 + 2 + 3 + 4 + 5 = 15.
 """
 
-print("This orogram is going to print the consecutive number for you")
+print("This program is going to print the consecutive number for you")
 
-print("PLease enter the number of which you want to find the c0nsecutive number")
+print("Please enter the number of which you want to find the consecutive number")
 n=int(input())
 
 x=int(0)
