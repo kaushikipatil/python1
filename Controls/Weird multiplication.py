@@ -25,7 +25,7 @@ Final product.
 find
 another product.
 """
-
+"""
 def weird_multiplication(a,b):
     multiplication=a*b
     print(multiplication)
@@ -33,3 +33,24 @@ def weird_multiplication(a,b):
 A=int(input("Ente the A integer"))
 B=int(input("Ente the B integer"))
 weird_multiplication(A,B)
+"""
+
+
+print("Enter A value and the B Value")
+A= int(input())
+B=int(input())
+addition=int(0)
+if(B%2):
+    addition=A
+else:
+    addition=int(0)
+while B:
+    A=A*2
+    B=int(B/2)
+    if B%2:
+        addition+=A
+        print(A, B,  addition)
+    else:
+        continue
+
+print("Addition ",addition)
