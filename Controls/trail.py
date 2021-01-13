@@ -1,4 +1,3 @@
-if 13%2!=0:
-    print("hurray")
-else:
-    print("ODD")
+name="Kaushik"
+
+print(name[2:]+name[:2])
