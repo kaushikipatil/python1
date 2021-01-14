@@ -1,3 +1,1 @@
-name="Kaushik"
-
-print(name[2:]+name[:2])
+print(15%2)
