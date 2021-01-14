@@ -1,5 +1,4 @@
 """
-Pig Latin
 Pig Latin is a game of alterations played on words. To make the Pig Latin form of an
 English word the initial consonant sound is transposed to the end of the word and an
 “ay” is affixed. Specifically there are two rules:
@@ -23,6 +22,7 @@ word=input()
 if word[0] in ['a','i','o','u','e']:
     word=word+"yay"
     print(word)
+    sys.exit
 
 else:
     for i in range(len(word)):
