@@ -22,19 +22,8 @@ Sum up all the A values that had odd B values and you get: 34+68+544 = 646 =>
 Final product.
 (a) Part 1: Write a program to find the product of two integers.
 (b) Part 2: Modify your program so that it repeatedly asks whether you want to
-find
-another product.
-"""
-"""
-def weird_multiplication(a,b):
-    multiplication=a*b
-    print(multiplication)
 
-A=int(input("Ente the A integer"))
-B=int(input("Ente the B integer"))
-weird_multiplication(A,B)
 """
-
 
 print("Enter A value and the B Value")
 A= int(input())
