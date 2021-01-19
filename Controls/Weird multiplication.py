@@ -25,6 +25,9 @@ Final product.
 
 """
 
+
+
+
 print("Enter A value and the B Value")
 A= int(input())
 B=int(input())
