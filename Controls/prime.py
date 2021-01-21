@@ -6,7 +6,7 @@ that checks for primality and avoids those unnecessary checks. Remember to impor
 math module.
 """
 import math
-
+ 
 print("Prime number")
 
 print("Enter the prime number")
